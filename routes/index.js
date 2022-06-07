@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
     from: '"Test" <dhaval.d@acedataanalytics.com>',
     to: "dhruvi@acedataanalytics.com",
     subject: "Testing",
-    text: "HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+    text: "HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
   }
 
   transporter.sendMail(mail, (err, result) => {
