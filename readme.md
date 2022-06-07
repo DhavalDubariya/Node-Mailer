@@ -1,0 +1,1 @@
+npm i dotenv nodemailer gmail googleapis
