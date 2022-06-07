@@ -1,1 +1,12 @@
-npm i dotenv nodemailer gmail googleapis
+# Node Mailer
+
+## Requirements 
+ 
+   => npm i dotenv 
+   => npm i nodemailer
+   => npm i gmail 
+   => npm i googleapis
+
+## Useful Links
+
+   => https://console.cloud.google.com/apis/dashboard
