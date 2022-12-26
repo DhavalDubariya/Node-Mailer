@@ -108,7 +108,7 @@ router.post("/dhaval", async function (req, res, next) {
     });
   }
 
-  return res.send(data);
+  return res.send({ status: true });
 });
 
 module.exports = router;
