@@ -13,10 +13,10 @@ router.post("/dhaval", async function (req, res, next) {
   );
   oAuth2Client.setCredentials({ refresh_token: process.env.REFRESH_TOKEN });
 
-  var email = req.body.email_id;
-  var message = req.body.message_id;
-  var subject = req.body.subject;
-
+  var email = JSON.stringify(req.body).split(",")[3].split(":")[1];
+  var message = JSON.stringify(req.body).split(",")[4].split(":")[1];
+  var subject = JSON.stringify(req.body).split(",")[5].split(":")[1];
+  console.log(email, message, subject);
   if (
     email == undefined ||
     email == "" ||
